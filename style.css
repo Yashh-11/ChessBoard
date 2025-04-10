@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    
+}
+
+body{
+background: bisque;
+}
+
+.box,.box1{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    float: left;
+    font-size: 56px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box1{
+   
+    background-color: rgb(119, 115, 115);
+    
+}
+.clear-float{
+    clear: both;
+}
